@@ -36,7 +36,7 @@ public class HueDbConnector {
 		        System.out.println("KUKU");
 		        for (int i=0; i< resultSet.getMetaData().getColumnCount(); i++)
 		        	System.out.println(resultSet.getMetaData().getColumnLabel(i+1));
-		        /*while (resultSet.next()) 
+		        while (resultSet.next()) 
 		         {  
 		        	
 		            System.out.println(resultSet.getString(1));
@@ -51,7 +51,7 @@ public class HueDbConnector {
 		     
 		            System.out.println("=====================");
 		             
-		         }*/
+		         }
 		        
 		     } 
 		     catch (Exception e) 
